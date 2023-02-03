@@ -1,0 +1,57 @@
+body{
+    background-color: powderblue;
+    text-align: center;
+    color: #1E836C;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    
+}
+p{
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Assistant', sans-serif;
+    color: #545454;
+}
+.div-1{
+    position: relative;
+    padding-top: 100px;
+}
+.head{
+    margin: 0;
+    font-family: 'Montez', cursive;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.skill-image{
+    width: 150px;
+    border-radius: 100%;
+    transition: all 1s;
+}
+.skill-image:hover{
+    opacity: .8;
+    width: 160px;
+}
+
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 10%;
+    transition: all 0.15s;
+}
+
+.hr-row:hover{
+    border-color: crimson;
+    padding-left: 5px;
+    padding-right: 5px;
+}
